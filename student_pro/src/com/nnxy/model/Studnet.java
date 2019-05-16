@@ -2,10 +2,10 @@ package com.nnxy.model;
 
 public class Studnet {
 
-	private int id;
-	private String name;
-	private int age;
-	private int sex;
+	private int id;// 唯一Id
+	private String name;// 姓名
+	private int age;// 年龄
+	private int sex;// 性别
 	
 	
 	public Studnet(int id, String name, int age, int sex) {
